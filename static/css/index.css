@@ -1,0 +1,196 @@
+body {
+    background-color: #0a0b1a;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar {
+    background-color: #1c1f5d;
+    color: rgb(250, 0, 0);
+    padding: 10px;
+    width: 100%;
+    height: 30px;
+    align-items: center;
+    z-index: 30;
+}
+
+.nav-bar a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-bar a:hover {
+    color: rgb(83, 89, 94);
+}
+
+.nav-bar ul {
+    list-style-type: none;
+    margin-right: 25px;
+    justify-content: flex-end;
+    display: flex;
+    margin-bottom: 8px;
+    margin-top: 5px;
+    gap: 14px;
+}
+
+.nav-bar ul li {
+    display: inline;
+}
+
+.logo {
+    width: 80px;
+    height: 50px;
+    margin-left: 10px;
+    float: left;
+    margin-top: 6px;
+}
+
+.demo-box {
+    background: linear-gradient(rgb(255, 2, 192), rgba(193, 8, 255, 0.5));
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+    margin-top: -9px;
+}
+
+.section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    align-items: center; 
+    gap: 10px;
+    width: 100vw;
+    height: 80vh; 
+    padding: 10px;
+    box-sizing: border-box;
+}
+.section3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    align-items: center; 
+    gap: 10px;
+    width: 100vw;
+    height: 90vh; 
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.section1 {
+    color: white;
+    padding: 20px;
+    flex: 1;
+    border-radius: 8px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 75vh;
+    font-size: 20px;
+}
+
+.section1 .heading1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.section1 .btn {
+    margin-top: 20px;
+    width: 120px;
+    height: 60px;
+    border-radius: 15px;
+}
+
+.section1 .btn:hover {
+    background-color: #1c1f5d;
+    color: white;
+    scale: 1.1;
+}
+
+.dash-img {
+    background-color: #1c1f5d;
+    flex: 1;
+    border-radius: 8px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+    height: 80vh;
+    background-image: url("../img/dash.png");
+    background-size: cover; /* Ensures the image covers the entire div */
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.dash-img2 {
+    background-color: #1c1f5d;
+    flex: 1;
+    border-radius: 8px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+    height: 80vh;
+    background-image: url("../img/Dashboard.jpg");
+    background-size: cover; /* Ensures the image covers the entire div */
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Fixed small content row alignment */
+.small-b-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100vw;
+    height: 20vh;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    margin: 5px;
+}
+
+.small-content {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column; /* Change to column to separate image and text */
+    align-items: center; 
+    justify-content: center; 
+    gap: 10px;
+    width: 230px;
+    height: 130px;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    text-align: center;
+}
+
+/* .small-content .lines {
+    background-image: url("../img/40k.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%; /* Set a fixed size for image */
+    /* height: 80%;
+} */ 
+
+
+
+.section2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    align-items: center; 
+    gap: 10px;
+    width: 100vw;
+    height: 80vh; 
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.section2 .heading1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+    margin-top: -400px;
+}
+
